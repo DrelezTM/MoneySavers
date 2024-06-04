@@ -29,7 +29,6 @@
         @endif
         <form class="border-2 border-outline bg-white flex flex-col justify-center items-center gap-2 w-[90%] rounded-md p-6" action="/data/update" method="post">
             <div class="flex flex-col w-full">
-                <label class="text-md flex gap-1" for="noteid">ID:</label>
                 <input class="outline-none border-outline border-2 rounded-md py-2 px-3 bg-white w-full" type="noteid" name="noteid" id="noteid" placeholder="Note ID" value="{{ $note->id }}" hidden>
             </div>
             <div class="flex flex-col w-full">
